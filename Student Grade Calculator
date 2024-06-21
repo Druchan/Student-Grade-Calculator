@@ -1,0 +1,61 @@
+import java.util.Scanner;
+public class StudentGradeCalculator {
+    public static void main(String[] args) {
+        String Name;
+        String grade;
+        int Roll, Tamil, English, Maths, Science, Social;
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter your Name :");
+        Name=scan.nextLine();
+        System.out.println("Enter your Roll Number :");
+        Roll=scan.nextInt();
+        System.out.println("Enter your Tamil Mark :");
+        Tamil=scan.nextInt();
+        System.out.println("Enter your English Mark :");
+        English=scan.nextInt();
+        System.out.println("Enter your Maths Mark :");
+        Maths=scan.nextInt();
+        System.out.println("Enter your Science Mark :");
+        Science=scan.nextInt();
+        System.out.println("Enter your Social Mark :");
+        Social=scan.nextInt();
+        int total=Tamil+English+Maths+Science+Social;
+        float percentage=(float)total/500*100;
+        int average=total/5;
+        if(average>=90){
+            grade="A";
+            
+        }
+        else if(average>=80){
+            grade="B";
+            
+        }
+        else if(average>=65){
+            grade="C";
+            
+        }
+        else if(average>=45){
+            grade="D";
+            
+        }
+        else if(average>=35){
+            grade="E";
+            
+        }
+        else{
+            grade="F";
+        
+        }
+        System.out.println("Roll Number :"+Roll);
+        System.out.println("Name :"+Name);
+        System.out.println("Tamil Mark :"+Tamil);
+        System.out.println("English Mark :"+English);
+        System.out.println("Maths Markr :"+Maths);
+        System.out.println("Science Mark :"+Science);
+        System.out.println("Social Mark :"+Social);
+        System.out.println("Your Total Mark is : :"+total);
+        System.out.println("Your Percentage is :"+percentage);
+        System.out.println("Your Average is :"+average);
+        System.out.println("Your Grade is :"+grade);
+    }
+}
