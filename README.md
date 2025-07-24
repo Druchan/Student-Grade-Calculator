@@ -1,9 +1,3 @@
-# Student-Grade-Calculator
-A simple Student Grade calculator using Java
-
-Here's a README file for your Student Grade Calculator program:
-
----
 
 # Student Grade Calculator
 
@@ -35,9 +29,9 @@ This Java program calculates the total marks, percentage, average, and grade of 
 
 ```
 Enter your Name :
-John Doe
+Dru
 Enter your Roll Number :
-101
+41
 Enter your Tamil Mark :
 85
 Enter your English Mark :
@@ -49,8 +43,8 @@ Enter your Science Mark :
 Enter your Social Mark :
 81
 
-Roll Number : 101
-Name : John Doe
+Roll Number : 41
+Name : Dru
 Tamil Mark : 85
 English Mark : 78
 Maths Mark : 92
