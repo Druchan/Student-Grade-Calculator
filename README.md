@@ -92,7 +92,7 @@ java StudentGradeCalculator
 
 ## Author
 
-- Your Name
+- Chandru S
 
 ## License
 
